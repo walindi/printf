@@ -8,6 +8,12 @@ Prototype: `int _printf(const char *format, ...);`
 
 The `_printf` function writes to stdout according to specified formats and returns the number of printed characters on success, and -1 when the function fails.
 
+The format specifiers are:
+- %c:
+- %s:
+- %d: Prints decimal
+- %i: Prints integer
+
 Using a `struct` data type which contains the declaration of a char pointer `*fmt` and a pointer to a function called `*func` the `print_num` function will receive a type `val_list` which will be the list of arguments that will be printed in case there's a match between the struct first argument `fmt` and the format.
 
 The struct calls different functions for printing dpending on which one matches the format specified by the user as shown;
