@@ -12,7 +12,8 @@ Using a `struct` data type which contains the declaration of a char pointer `*fm
 
 The struct calls different functions for printing dpending on which one matches the format specified by the user as shown;
 
-```fmt st_format[] = {
+```
+fmt st_format[] = {
 	{"d", print_num},
 	{"i", print_num}};
 ```
