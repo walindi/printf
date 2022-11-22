@@ -5,6 +5,7 @@
  * get_match - match format with function format
  * @format: character string
  * @list: list of arguments the _printf is receiving
+ * @st_format: format specifier
  *
  * Return: the number of characters the function is printing
  */
