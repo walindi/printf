@@ -4,15 +4,17 @@
 #include <stdarg.h>
 
 /**
- * struct format - the struct by name stfmt
+ * struct st_fmt - format specifier
  * @fmt: index by function
- * @func: pointer to function - funtion print
+ * @func: pointer to function _printf
  */
 typedef struct st_fmt
 {
 	char *fmt;
 	int (*func)(va_list list);
+
 } st_fmt;
+
 
 
 int _printf(const char *format, ...);
