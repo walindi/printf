@@ -1,8 +1,13 @@
 #include"main.h"
 
+/**
+ * print_percent - print percentage string. 
+ * @list: unused va_list 
+ */
+
 int print_percent(__attribute__((unused))va_list list)
 {
-	char c ='%';
+	char c = '%';
 	int count = 0;
 
 	_putchar(c);
