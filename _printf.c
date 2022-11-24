@@ -12,8 +12,7 @@ int _printf(const char *format, ...)
 		{"d", print_num},
 		{"i", print_num},
 		{"s", print_string},
-		{"c", print_char},
-		{"%", print_percent}
+		{"c", print_char}
 	};
 
 	va_list list;
