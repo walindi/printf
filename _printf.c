@@ -9,7 +9,10 @@ int _printf(const char *format, ...)
 {
 	st_fmt st_format[] = {
 		{"d", print_num},
-		{"i", print_num}};
+		{"i", print_num},
+		{"s", print_string},
+		{"c", print_char}
+	};
 
 	va_list list;
 	int count = 0;

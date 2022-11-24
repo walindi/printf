@@ -22,6 +22,8 @@ int _putchar(char c);
 int get_match(const char *, va_list, st_fmt st_format[]);
 int print_num(va_list);
 
+int print_string(va_list);
+int print_char(va_list);
 
 
 
