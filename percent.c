@@ -1,15 +1,17 @@
 #include"main.h"
 
 /**
- * print_percent - print percentage string.
- * @list: unused va_list parameter.
- * Return: count of parameters.
+ * print_percent - print percentage string
+ * @list: unused va_list parameter
+ * Return: count of parameters
  */
 
 int print_percent(__attribute__((unused))va_list list)
 {
 	char c = '%';
-	int count = 0;
+	int count;
+
+	count = 0;
 
 	_putchar(c);
 	count++;
