@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * _printf - print a char or a string
+ * _printf - takes a format string as an argument,
+ *	and calls the function func with va_list list
  * @format: It's a character string
- * Return: the number of character the function is printing
+ * Return: the number of characters the function is printing
  */
 int _printf(const char *format, ...)
 {
