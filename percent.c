@@ -1,5 +1,9 @@
 #include"main.h"
 
+/**
+ * print_percent - 
+ */
+
 int print_percent(__attribute__((unused))va_list list)
 {
 	char c = '%';
