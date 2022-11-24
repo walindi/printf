@@ -2,7 +2,7 @@
 
 /**
  * print_percent - print percentage string. 
- * @list: unused va_list 
+ * @list: unused va_list parameter.
  */
 
 int print_percent(__attribute__((unused))va_list list)
