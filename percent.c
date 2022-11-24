@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
- * print_percent - print percentage string. 
+ * print_percent - print percentage string.
  * @list: unused va_list parameter.
  * Return: count.
  */
