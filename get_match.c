@@ -48,7 +48,7 @@ int get_match(const char *format, va_list list, st_fmt st_format[])
 	}
 	if (format == NULL)
 		return (-1);
-	return (count);
+return (count);
 
 
 }
