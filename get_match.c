@@ -2,7 +2,10 @@
 #include <stddef.h>
 
 /**
- * get_match - match format with function format
+ * get_match - takes two strings as arguments;
+ * 	1-A pattern to match and 2-a variable of type st_fmt where it will
+ * 	store its result.
+ * 	The function matches format with function format
  * @format: character string
  * @list: list of arguments the _printf is receiving
  * @st_format: format specifier
