@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
- * print_percent - 
+ * print_percent - print percentage string. 
  */
 
 int print_percent(__attribute__((unused))va_list list)
