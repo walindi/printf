@@ -17,13 +17,9 @@ int print_string(va_list list)
 		s = "(null)";
 	}
 
-	if (s != NULL)
+	for (count = 0; s[count] != 0; count++)
 	{
-		while (*s)
-		{
-			_putchar(*s++);
-			count++;
-		}
+		_putchar(s[count]);
 	}
 	return (count);
 }
