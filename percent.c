@@ -7,7 +7,7 @@
  * Return: 1
  */
 
-int print_percent(__attribute__((unused))va_list list)
+int print_percent(__attribute__((unused)) va_list list)
 {
 	char c = '%';
 
