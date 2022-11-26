@@ -12,6 +12,11 @@ int print_string(va_list list)
 	int count;
 	char *s = va_arg(list, char *);
 
+	if (s == 0)
+	{
+		s = "(null)";
+	}
+
 	if (s != NULL)
 	{
 		while (*s)
