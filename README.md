@@ -8,9 +8,11 @@ Prototype: `int _printf(const char *format, ...);`
 
 The `_printf` function writes to stdout according to specified formats and returns the number of printed characters on success, and -1 when the function fails.
 
+All files were created and compiled on Ubuntu 20.04 LTS using `gcc`, using the options `-Wall -Werror -Wextra -pedantic -std=gnu89`
+
 The format specifiers are:
-- %c:
-- %s:
+- %c: Prints character
+- %s: prints string
 - %d: Prints decimal
 - %i: Prints integer
 
